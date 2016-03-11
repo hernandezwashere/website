@@ -15,11 +15,13 @@
   </head>
 
   <body>
-    home
-    blog
-    code
-    resume
     <div class="container">
+      <div class="navbar" id="navbar">
+        <h2 class="navbar-item"><a class="navbar-active" href="index.html">home</a></h2>
+        <h2 class="navbar-item"><a class="navbar-inactive" href="blog.html">blog</a></h2>
+        <h2 class="navbar-item"><a class="navbar-inactive" href="code.html">code</a></h2>
+      </div>
+
       <img class="circle" src="data/face.jpg" width="150" height="150" alt="character logo">
       <h1 class="title" id="div1">I'm Jose.</h1>
       <h2 class="subtitle" id="div1">Hi there! I write code and ride bikes.
@@ -27,28 +29,19 @@
       <div class="container-bottom" id="div1">
         <div class="item">
           <i class="fa fa-file-text-o fa-fw"></i> 
-          <h3 class="desc">Resume</h3>
+          <h3 class="desc"><a class="main-link" href="data/josehdz_resume.pdf">Resume</a></h3>
           <p class="desc-blurb"> I've interned at Facebook twice,
             and I'll be returning to intern at Facebook New York. Last summer,
             I redesigned and optimized the grammar query pipeline (graph search) on the Search
             NLP team. Next summer, I plan to intern on the Messenger Infrastructure
-            team. Here is my <a class="sub-link" href="data/josehdz_resume.pdf">resume</a>.</p>
+            team.</p>
         </div>
         <div class="item">
           <i class="fa fa-github fa-fw"></i> 
           <h3 class="desc"> <a class="main-link" href="https://github.com/hernandezwashere">Github</a> </h3>
-          <h3 class="desc-fade">// josehdz </h3>
-          <p class="desc-blurb"> Check out 
-            <a class="sub-link" href="https://gub.com/hyunbin/BetterMTD">Transit</a>, my Android bus app for Chambana.
-            Or <a class="sub-link" href="https://gb.com/hyunbin/MaterialColors">MaterialColors</a>, 
-            a simple Java library to approximate RGB colors to their material counterparts.</p>
-        </div>
-        <div class="item">
-          <i class="fa fa-google fa-fw"></i> 
-          <h3 class="desc"> <a class="main-link" href="https://plogle.com/store/apps/developer?id=Hyunbin+Park">Google Play</a></h3>
-          <h3 class="desc-fade">// Hyunbin Park </h3>
-          <p class="desc-blurb"> I shipped my bus app to the Play Store! 
-            It's used by thousands of people and counting. </p>
+          <h3 class="desc-fade">// hernandezwashere </h3>
+          <p class="desc-blurb"> I am the king of private repos, but this year 
+            many more projects will see the light of day. </p>
         </div>
         <div class="item">
           <i class="fa fa-linkedin-square fa-fw"></i> 
@@ -60,7 +53,7 @@
           <i class="fa fa-medium fa-fw"></i> 
           <h3 class="desc"><a class="main-link" href="https://medium.com/@josehdz">Medium</a></h3>
           <h3 class="desc-fade">// @josehdz </h3>
-          <p class="desc-blurb"> I share my day-to-day thoughts here. </p>
+          <p class="desc-blurb">Elevating the mental grub in the world.</p>
         </div>
       </div><!-- /.container-bottom -->
     </div><!-- /.container -->
