@@ -1,9 +1,10 @@
 /* -------- Skeleton Overrides ---------- */
 
 body {
-  font-family: "Avenir Next",
+  /*font-family: "Avenir Next",
     "HelveticaNeue", "Helvetica Neue", Helvetica,
-    Arial, sans-serif;
+    Arial, sans-serif;*/
+  font-family: "Lato", "Avenir", Lato, Avenir;
 }
 
 h1, h2, h3 {
@@ -576,16 +577,28 @@ article#whoami > h5 {
 
 .item-icon {
   text-align: center;
+  vertical-align: middle;
 }
 
 .item-text {
   text-align: left;
   display: inline-block;
-  vertical-align: top;
+  /*vertical-align: top;*/
 }
 
 .personal-items {
   /*padding-left: 30px;*/
   display: inline-block;
   vertical-align: top;
+}
+
+/* -------- blog entry ---------- */
+.blog-entry {
+  /* empty for now */
+}
+
+/* -------- whoops broken ---------- */
+.whoops {
+  vertical-align: top;
+  text-align: center;
 }
