@@ -28,23 +28,23 @@
   <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 <body>
-  <header>
+  <header class="header">
     <div class="container">
       <div class="row">
-        <div class="one-half column">
-          <h1>Jose Hernandez</h1>
+        <div class="one-half column header-logo">
+          <h3>Jose Hernandez</h3>
         </div> <!-- first column -->
 
-        <div class="one-half column">
+        <div class="one-half column header-links">
           <nav>
             <a href="index.html" class="item">
-              <i class="fa fa-home"></i><br /> home
+              <i class="fa fa-home"></i> home
             </a>
             <a href="blog.html" class="item">
-              <i class="fa fa-rss"></i><br /> blog
+              <i class="fa fa-rss"></i> blog
             </a>
             <a href="whoops.html" class="item">
-              <i class="fa fa-code"></i><br /> projects
+              <i class="fa fa-code"></i> projects
             </a>
           </nav>
         </div>
@@ -53,37 +53,31 @@
   </header>
 
   <div id="content">
-      <section class="mini gray">
-        <div class="container">
-          <h5>
-            Hi there! I'm Jose.
-            I'm a computer science student at Stanford University.
-          </h5>
-        </div>
-      </section>
 
       <section class="white">
         <div class="container">
           <div class="row">
-            <div class="three columns photo">
-              <img src="images/smirk-bw.jpg" class="u-max-full-width"
-                alt="Jose - Black/White Photo" />
-              <img src="images/smirk-color.jpg" class="u-max-full-width overlay"
-                alt="Jose - Color" />
+            <div class="four columns photo">
+              <img src="images/smirk-instant.jpg" class="u-max-full-width"
+                alt="Jose - Instant Photo" />
+              <img src="images/smirk-chrome.jpg" class="u-max-full-width overlay"
+                alt="Jose - Chrome Photo" />
+
             </div>
 
-            <div class="nine columns">
+            <div class="eight columns">
               <article id="whoami">
-                <h5>Now, who am I really?</h5>
+                <h4>Hi there! I'm Jose.</h4>
                 <p>
+                    I'm a junior studying computer science and math at Stanford.
                     I blur the divide between computer science systems, theory, and
                     artificial intelligence. I love learning the narrative of discovery
                     in these fields, because insights come from deep understanding.
-                    To put it simple, I write code and ride bikes. I love designing
+                    Simply put, I write code and ride bikes. I love designing
                     systems, solving problems, and teaching math.
                 </p>
                 <p>
-                    My recent love for computer systems has been populating my time -
+                    Recently, computer systems has been populating my time &mdash;
                     from compilers to operating systems, and all the details
                     in between. Next summer, I will be interning on the Messenger
                     Infrastructure team at Facebook NYC.
@@ -106,8 +100,7 @@
                           I've interned at Facebook twice, and I'll be returning
                           to intern at Facebook New York. Last summer, I redesigned
                           and optimized the grammar query pipeline (graph search)
-                          on the Search NLP team. Next summer, I plan to intern
-                          on the Messenger Infrastructure team. If you'd like to get in touch,
+                          on the Search NLP team. Next summer, If you'd like to get in touch,
                           email me at <a href="mailto:josehdz@stanford.edu">josehdz [at] stanford [dot] edu</a>.
 
                         </p>
@@ -121,7 +114,10 @@
                         <a href="https://github.com/hernandezwashere">GitHub // hernandezwashere</a>
                         <p>
                           I am the king of private repos, but this year many more
-                          projects will see the light of day.
+                          projects will see the light of day. First, I will be
+                          publishing my python script used to debug my <a href="http://theory.stanford.edu/~aiken/software/cool/cool.html">COOL compiler</a>,
+                          written for Stanford's Compiler class. There is a useful
+                          script for the lexer, parser, and semantic-analyzer.
                         </p>
                       </div>
                   </div>

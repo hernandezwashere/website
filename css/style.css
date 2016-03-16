@@ -5,6 +5,7 @@ body {
     "HelveticaNeue", "Helvetica Neue", Helvetica,
     Arial, sans-serif;*/
   font-family: "Lato", "Avenir", Lato, Avenir;
+  color: #2a2a2a;
 }
 
 h1, h2, h3 {
@@ -79,7 +80,7 @@ a {
 /* -------- Header/Navigation ---------- */
 
 header {
-  border-top: 5px solid #000;
+  border-top: 5px solid #3f3f3f;
   padding: 2.5rem 0;
 }
 
@@ -88,7 +89,7 @@ a.item, a.item:visited {
   display: inline-block;
   margin-left: 3rem;
   font-weight: 500;
-  color: #000;
+  color: #2a2a2a;
 }
 
 a.item:hover {
@@ -115,7 +116,8 @@ nav {
 }
 
 nav a.item {
-  font-size: 1.5rem;
+  vertical-align: bottom;
+  font-size: 2rem;
 }
 
 nav i.fa {
@@ -547,16 +549,19 @@ article h1, article h2, article h3 {
 
 .photo {
   position: relative;
+  margin-top: 20px;
 }
 
 .photo img {
-  width: 20rem;
+  width: 25rem;
   padding: 3px;
   border: 1px solid #ccc;
 }
 
 .photo .overlay {
   position: absolute;
+  text-align: center;
+
   z-index: 10;
   top: 0;
   left: 0;
@@ -575,13 +580,28 @@ article#whoami > h5 {
 
 /* -------- personal items ---------- */
 
+.header {
+  background: #d3d3d3;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+}
+.header-logo {
+  vertical-align: middle;
+  color: #3f3f3f;
+}
+.header-links {
+  vertical-align: middle;
+}
+
 .item-icon {
   text-align: center;
-  vertical-align: middle;
+  vertical-align: right;
 }
 
 .item-text {
   text-align: left;
+  margin-left: 20px;
   display: inline-block;
   /*vertical-align: top;*/
 }
