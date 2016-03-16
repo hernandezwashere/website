@@ -546,6 +546,7 @@ article h1, article h2, article h3 {
 /* -------- Who Am I? ---------- */
 
 .photo {
+  text-align: center;
   position: relative;
 }
 
