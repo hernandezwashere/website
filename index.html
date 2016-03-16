@@ -1,62 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Jose Hernandez">
-    <link rel="shortcut icon" href="favicon.gif">
+<head>
+  <meta charset="utf-8">
+  <title>Jose Hernandez</title>
+  <meta name="description" content="Joses's Personal Page">
+  <meta name="author" content="Jose Hernandez">
 
-    <title>Jose Hernandez</title>
+  <!-- Mobile Specific Metas –-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="styles.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Avenir:300,700' rel='stylesheet' type='text/css'>
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-  </head>
+  <!-- Skeleton CSS –-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
 
-  <body>
+  <!-- Font Awesome CSS –-->
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+  <!-- Custom CSS –-->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="(max-width: 550px)" href="css/mobile.css">
+
+  <!-- Favicon –-->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+<body>
+  <header>
     <div class="container">
-      <!--div class="navbar" id="navbar">
-        <h2 class="navbar-item"><a class="navbar-active" href="index.html">home</a></h2>
-        <h2 class="navbar-item"><a class="navbar-inactive" href="blog.html">blog</a></h2>
-        <h2 class="navbar-item"><a class="navbar-inactive" href="code.html">code</a></h2>
-      </div-->
+      <div class="row">
+        <div class="one-half column">
+          <h1>Jose Hernandez</h1>
+        </div> <!-- first column -->
+        <!-- <div class="one-half column">
+          <nav>
+            <a href="index.html" class="item">
+              <i class="fa fa-home"></i><br /> home
+            </a>
+            <a class="item">
+              <i class="fa fa-rss"></i><br /> blog
+            </a>
+            <a class="item">
+              <i class="fa fa-code"></i><br /> projects
+            </a>
+          </nav>
+        </div> -->
+      </div> <!-- row -->
+    </div> <!-- container -->
+  </header>
 
-      <img class="circle" src="data/face.jpg" width="150" height="150" alt="character logo">
-      <h1 class="title" id="div1">I'm Jose.</h1>
-      <h2 class="subtitle" id="div1">Hi there! I write code and ride bikes.
-        I love designing systems, solving problems, and teaching math.</h2>
-      <div class="container-bottom" id="div1">
-        <div class="item">
-          <i class="fa fa-file-text-o fa-fw"></i> 
-          <h3 class="desc"><a class="main-link" href="data/josehdz_resume.pdf">Resume</a></h3>
-          <p class="desc-blurb"> I've interned at Facebook twice,
-            and I'll be returning to intern at Facebook New York. Last summer,
-            I redesigned and optimized the grammar query pipeline (graph search) on the Search
-            NLP team. Next summer, I plan to intern on the Messenger Infrastructure
-            team.</p>
+  <div id="content">
+      <section class="mini gray">
+        <div class="container">
+          <h5>
+            Hi there! I'm Jose.
+            I'm a computer science student at Stanford University.
+          </h5>
         </div>
-        <div class="item">
-          <i class="fa fa-github fa-fw"></i> 
-          <h3 class="desc"> <a class="main-link" href="https://github.com/hernandezwashere">Github</a> </h3>
-          <h3 class="desc-fade">// hernandezwashere </h3>
-          <p class="desc-blurb"> I am the king of private repos, but this year 
-            many more projects will see the light of day. </p>
+      </section>
+
+      <section class="white">
+        <div class="container">
+          <div class="row">
+            <div class="three columns photo">
+              <img src="images/smirk-bw.jpg" class="u-max-full-width"
+                alt="Jose - Black/White Photo" />
+              <img src="images/smirk-color.jpg" class="u-max-full-width overlay"
+                alt="Jose - Color" />
+            </div>
+
+            <div class="nine columns">
+              <article id="whoami">
+                <h5>Now, who am I really?</h5>
+                <p>
+                    I blur the divide between computer science systems, theory, and
+                    artificial intelligence. I love learning the narrative of discovery
+                    in these fields, because insights come from deep understanding.
+                    To put it simple, I write code and ride bikes. I love designing
+                    systems, solving problems, and teaching math.
+                </p>
+                <p>
+                    My recent love for computer systems has been populating my time -
+                    from compilers to operating systems, and all the details
+                    in between. Next summer, I will be interning on the Messenger
+                    Infrastructure team at Facebook NYC.
+                </p>
+              </article>
+            </div>
+          </div>
+
+          <div class="row">
+            <article>
+              <h5>More about me and my work.</h5><br />
+              <div class="personal-items" id="personal_items">
+                  <div class="row">
+                      <div class="one column item-icon">
+                        <i class="fa fa-file-text-o fa-lg"></i>
+                      </div>
+                      <div class="eleven columns item-text">
+                        <a href="resume.pdf"> Resume // pdf</a>
+                        <p>
+                          I've interned at Facebook twice, and I'll be returning
+                          to intern at Facebook New York. Last summer, I redesigned
+                          and optimized the grammar query pipeline (graph search)
+                          on the Search NLP team. Next summer, I plan to intern
+                          on the Messenger Infrastructure team. If you'd like to get in touch,
+                          email me at <a href="mailto:josehdz@stanford.edu">josehdz [at] stanford [dot] edu</a>.
+
+                        </p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="one column item-icon">
+                        <i class="fa fa-github fa-lg"></i>
+                      </div>
+                      <div class="eleven columns item-text">
+                        <a href="https://github.com/hernandezwashere">GitHub // hernandezwashere</a>
+                        <p>
+                          I am the king of private repos, but this year many more
+                          projects will see the light of day.
+                        </p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="one column item-icon">
+                        <i class="fa fa-linkedin-square fa-lg"></i>
+                      </div>
+                      <div class="eleven columns item-text">
+                        <a href="https://linkedin.com/in/josehdz">LinkedIn // josehdz</a>
+                        <p>My professional profile.</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="one column item-icon">
+                        <i class="fa fa-medium fa-lg"></i>
+                      </div>
+                      <div class="eleven columns item-text">
+                        <a href="https://medium.com/@josehdz">Medium // @josehdz</a>
+                        <p>Elevating the mental grub in the world.</p>
+                      </div>
+                  </div>
+              </div>
+              <!-- <h5>Find me online</h5>
+              <p>
+                Email me at
+                <a href="mailto:josehdz@stanford.edu">josehdz [at] stanford [dot] edu</a>,
+                find me on GitHub at
+                <a href="https://github.com/hernandezwashere">hernandezwashere</a>
+                or check out my
+                <a href="https://www.linkedin.com/in/josehdz">LinkedIn</a>.
+              </p> -->
+            </article>
+          </div>
         </div>
-        <div class="item">
-          <i class="fa fa-linkedin-square fa-fw"></i> 
-          <h3 class="desc"><a class="main-link" href="https://www.linkedin.com/in/josehdz">LinkedIn</a></h3>
-          <h3 class="desc-fade">// josehdz </h3>
-          <p class="desc-blurb"> My professional profile. </p>
+      </section>
+
+      <section id="bye" class="gray">
+        <div class="container">
+            <div class="row">
+                <h4>until next time!</h4>
+            </div>
         </div>
-        <div class="item">
-          <i class="fa fa-medium fa-fw"></i> 
-          <h3 class="desc"><a class="main-link" href="https://medium.com/@josehdz">Medium</a></h3>
-          <h3 class="desc-fade">// @josehdz </h3>
-          <p class="desc-blurb">Elevating the mental grub in the world.</p>
-        </div>
-      </div><!-- /.container-bottom -->
-    </div><!-- /.container -->
-  </body>
+      </section>
+  </div>
+
+  <footer>
+    <div class="container" alt="This website was made with love. <3">
+      <i class="fa fa-code"></i>
+    </div>
+  </footer>
+
+  <!-- Google Fonts Open Sans -->
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Open+Sans:400italic,600italic,400,600:latin' ] }
+    };
+
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+</body>
 </html>
-
