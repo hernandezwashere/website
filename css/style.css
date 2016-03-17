@@ -550,6 +550,7 @@ article h1, article h2, article h3 {
 .photo {
   position: relative;
   margin-top: 20px;
+  text-align: center;
 }
 
 .photo img {
