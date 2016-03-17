@@ -622,3 +622,18 @@ article#whoami > h5 {
   vertical-align: top;
   text-align: center;
 }
+
+/* -------- miscellaneous ---------- */
+.centered {
+  vertical-align: top;
+  text-align: center;
+}
+.center-top .center-top-overlay {
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
