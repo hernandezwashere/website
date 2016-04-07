@@ -308,7 +308,7 @@ section#bye {
 body > footer {
   padding: 2.5rem 0;
   text-align: center;
-  -webkit-text-stroke: 0.25rem black;
+  -webkit-text-stroke: 0.15rem black;
 }
 
 body > footer i.fa {
@@ -317,7 +317,7 @@ body > footer i.fa {
 
 body > footer i.fa:hover {
   color: #cc1111;
-  -webkit-text-stroke: 0.25rem #cc1111;
+  -webkit-text-stroke: 0.15rem #cc1111;
 }
 
 /* -------- Article Header ---------- */
