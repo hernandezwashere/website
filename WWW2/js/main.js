@@ -21,24 +21,6 @@
         link: "http://infolab.stanford.edu/",
         title: "Stanford Infolab // [modest undergrad]",
         description: "I had the opportunity to research on a team in the Stanford Infolab. The long-term goal is to auto-generate studyguides for MOOCs. We focused on developing a method for extracting keywords from video lectures, which would be used for a studyguide. Check out our (recently submitted) research paper."
-      },
-      {
-        icon: "fa-book",
-        link: "//stanfordesp.org/teach/teachers/josehdz/bio.html",
-        title: "Stanford Splash // [teaching profile]",
-        description: "Here is my teaching profile for Stanford Spash (education for students by students). I have taught classes in game theory, bike repair, California housing history (Proposition 13), and origami. My favorite has been game theory — I'm excited to iterate and improve it! Kawasaki rose by following this diagram. Looking forward to teach more classes next year."
-      },
-      {
-        icon: "fa-medium",
-        link: "//medium.com/@josehdz",
-        title: "Medium // @josehdz",
-        description: "Elevating the mental grub in the world."
-      },
-      {
-        icon: "fa-linkedin-square",
-        link: "//linkedin.com/in/josehdz",
-        title: "LinkedIn // josehdz",
-        description: "My professional profile."
       }
     ]
   };
@@ -51,26 +33,30 @@
   var template = Handlebars.compile(source);
 
   var data = {
-    experiences: [
+    teaching: [
       {
         link: "",
         title: "Mission Bit",
-        description: "Talk about Mission Bit"
+        description: "Talk about Mission Bit",
+        bullets: []
       },
       {
         link: "",
         title: "Midtown",
-        description: "Talk about midtown"
+        description: "Talk about midtown",
+        bullets: []
       },
       {
         link: "",
         title: "Section leading",
-        description: "Talk about section leading"
+        description: "Talk about section leading",
+        bullets: []
       },
       {
         link: "",
         title: "Stanford splash",
-        description: "Talk about splash"
+        description: "Here is my teaching profile for Stanford Spash (education for students by students). I have taught classes in game theory, bike repair, California housing history (Proposition 13), and origami. My favorite has been game theory — I'm excited to iterate and improve it! Kawasaki rose by following this diagram. Looking forward to teach more classes next year.",
+        bullets: ["blah", "blah", "blah", "blah"]
       }
     ]
   };

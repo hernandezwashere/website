@@ -20,9 +20,9 @@ h5,
 h6 {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  margin: 0 0 35px;
+  /* margin: 0 0 35px; */
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 p {
@@ -43,7 +43,7 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #42DCA3;
+  color: #005b96;
 }
 
 a:focus, a:hover {
@@ -169,8 +169,8 @@ a:focus, a:hover {
 }
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .experience-section {
@@ -189,6 +189,22 @@ a:focus, a:hover {
   background-size: cover;
 }
 
+.grade-7th-section {
+  background-color: #f8f8fa;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.grade-9th-section {
+  background-color: #e5e6eb;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 #map {
   width: 100%;
   height: 300px;
@@ -196,8 +212,8 @@ a:focus, a:hover {
 
 @media (min-width: 992px) {
   .content-section {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   #map {
     height: 350px;
@@ -288,11 +304,3 @@ img::-moz-selection {
   display: inline-block;
   /*vertical-align: top;*/
 }
-/*
-.circle {
-    border-radius: 50px;
-    -webkit-animation-name: fade-in;
-    animation-name: fade-in;
-    -webkit-animation-duration: 1.5s;
-    animation-duration: 1.5s;
-} */
