@@ -1,10 +1,6 @@
 +++
-title = "Hi there! I'm Jose"
-date = 2020-02-17
 draft = false
 +++
-
-<img src="images/profile_pic.jpg" class="float-image" />
 
 I graduated from Stanford in 2017, and have been working at Airbnb ever since. For 2.5 years, I worked on the Financial Infrastructure team, where I helped build data pipelines to generate Airbnb's financial reports. I love diving into data and helping to streamline messy workflows.
 
