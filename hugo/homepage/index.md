@@ -1,9 +1,6 @@
 +++
 title = "Hi there! I'm Jose"
 date = 2020-02-17
-images = []
-tags = []
-categories = []
 draft = false
 +++
 

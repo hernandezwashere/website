@@ -1,26 +1,23 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Jose Hernandez"
-theme = "kiera"
+theme = "minimo"
 copyright = "Copyright &copy; 2020 - Jose Hernandez"
 
 pygmentsCodeFences = true
 
-disqusShortname = "" #Disqus shortname
-googleAnalytics = "" #Google Analytics ID
+disqusShortname = ""              #Disqus shortname
+googleAnalytics = ""              #Google Analytics ID
 
 [author]
-    name = "Jose Hernandez"           #Author name
-    github = "hernandezjose"         #Github username
-    # gitlab = ""         #Gitlab username
-    linkedin = "josehdz"       #LinkedIn username
-    # facebook = ""       #Facebook username
-    twitter = "josewhocodes"        #Twitter username
-    # instagram = ""      #Instagram username
-    # stackoverflow = ""  #StackOverflow username
+    name = "Jose Hernandez"       #Author name
+    github = "hernandezjose"      #Github username
+    linkedin = "josehdz"          #LinkedIn username
+    twitter = "josewhocodes"      #Twitter username
+    # stackoverflow = ""          #StackOverflow username
 
 [params]
-    tagline = "Thoughts from Chicagoan turned big data engineer."
+    tagline = "Thoughts from a Chicagoan turned big data engineer"
     customCSS = []  #Optional Customised CSS
 
 [[menu.main]]
