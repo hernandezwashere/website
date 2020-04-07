@@ -1,4 +1,4 @@
-### Hi there! I'm Jose.
+## Hi there! I'm Jose.
 
 I am a data engineer at Airbnb, currently on the Market Dynamics team to help our data science teams productionize metrics that measure Airbnb's competitiveness and maintain the health of our 200+ data pipelines. I was formerly on the Payments team at Airbnb, focused on Financial Infrastructure. I blur the divide between computer systems, algorithms, and artificial intelligence.
 
@@ -8,8 +8,6 @@ I love writing code, solving problems, teaching math, and designing modules. Bey
 
 #### [Resume // pdf](https://hernandezjose.github.io/resume.pdf)
 
-[TODO: Write a blurb about Airbnb experience. A proposal below:]
-
 At Airbnb, I work in tandem with our data scientists on the Market Dynamics team to build and optimize our data pipelines to be more reliable, efficient, and scalable.
 
 When I was on the Financial Infrastructure team, I ensured that our accountants and stakeholders had high-quality, accurate data for reporting by improving our ETL pipelines and building tools to better monitor Airflow task health.
@@ -17,10 +15,6 @@ When I was on the Financial Infrastructure team, I ensured that our accountants 
 For my work, I use Scala, Hive, Spark, and Airflow.
 
 Before joining Airbnb, I interned at Facebook as a software engineer -- first in Menlo Park and then in New York. While in Menlo Park, I redesigned and optimized the grammar query pipeline (graph search) on the Search NLP team. In New York, I added a multi-regional cache to a Messenger data service on the Messenger Infrastructure team. 
-
-#### [GitHub // hernandezjose](https://github.com/hernandezjose)
-
-[TODO: figure out if you can publish anything on GitHub? Were you able to get consent to publish your Python script? Is there anything you want to add to your GitHub? It looks kind of empty.]
 
 #### [Midtown Center for Boys // teacher](https://hernandezjose.github.io/midtown/)
 
@@ -38,6 +32,6 @@ Here is my teaching profile for Stanford Splash (education for students by stude
 
 Elevating the mental grub in the world. I occasionally blog on a wide variety of topics that I care about, including math in the real world, what my journey looked like as I started coding, and STEM education. If you'd like to get in touch about something you'd be interested in hearing from me, email me at [josehdz at cs dot stanford dot edu](josehdz@cs.stanford.edu).
 
-#### [LinkeIn // josehdz](https://linkedin.com/in/josehdz)
+#### [LinkedIn // josehdz](https://linkedin.com/in/josehdz)
 
 My professional profile.

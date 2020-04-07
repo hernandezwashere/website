@@ -39,7 +39,7 @@ suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
+dateFormat = "Jan 02, 2006"
 listDateFormat = "2006, Jan 02"
 archiveDateFormat = "Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
@@ -55,9 +55,8 @@ rtl = false
 enable = true
 
 [params.widgets]
-header = ["breadcrumbs"]
 homepage = ["recent_posts"]
-sidebar = ["about","search","sidebar_menu","taxonomy_cloud"]
+sidebar = ["about", "search", "sidebar_menu", "taxonomy_cloud", "social_menu"]
 footer = ["social_menu"]
 
 [params.opengraph.facebook]
@@ -94,15 +93,6 @@ maxDepth = 2
 username = "MunifTanjim"
 repository = "minimo"
 
-# Utterances: https://utteranc.es
-[params.comments.utterances]
-enable = false
-issueTerm = "pathname" # pathname / url / title
-
-[params.comments.utterances.github]
-username = "MunifTanjim"
-repository = "minimo"
-
 [params.search]
 client = "fuse" # algolia / fuse / lunr
 
@@ -120,6 +110,11 @@ tag = "tags"
 [permalinks]
 page = "/:slug/"
 
+[[menu.main]]
+name = "Home"
+weight = -10
+identifier = "home"
+url = "/"
 
 [[menu.main]]
 name = "Blog"
