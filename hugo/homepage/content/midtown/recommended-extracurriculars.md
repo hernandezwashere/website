@@ -1,11 +1,9 @@
-+++
-title = "Midtown"
-date = 2017-08-03
-images = []
-tags = ["education", "recommendations"]
-categories = []
-draft = false
-+++
+---
+title: "Midtown"
+date: "2017-08-03"
+tags: ["education", "recommendations"]
+draft: false
+---
 
 ## Recommended extracurriculars
 

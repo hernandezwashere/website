@@ -1,11 +1,9 @@
-+++
-title = "Midtown"
-date = 2017-08-05
-images = []
-tags = ["teaching", "education", "math"]
-categories = []
-draft = false
-+++
+---
+title: "Midtown"
+date: "2017-08-05"
+tags: ["teaching", "education", "math"]
+draft: false
+---
 
 ## 7th Grade
 
@@ -79,4 +77,4 @@ draft = false
 
 ## Recommended extracurriculars
 
-If you want to see my recommendations, [click here to check them out](recommended-extracurriculars)
+If you want to see my recommendations, [click here to check them out](/midtown/recommended-extracurriculars)
