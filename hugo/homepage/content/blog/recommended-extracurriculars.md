@@ -1,11 +1,9 @@
 ---
-title: "Midtown"
+title: "Midtown: Recommended extracurriculars"
 date: "2017-08-03"
 tags: ["education", "recommendations"]
 draft: false
 ---
-
-## Recommended extracurriculars
 
 ### Recommended summer and school-year programs
 

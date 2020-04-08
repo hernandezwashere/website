@@ -1,6 +1,11 @@
 ---
-title: "Midtown"
+title: "Midtown: Curriculum"
 date: "2017-08-05"
+linkTitle: Midtown
+menu:
+  main:
+weight: 2
+slug: midtown
 tags: ["teaching", "education", "math"]
 draft: false
 ---
@@ -77,4 +82,4 @@ draft: false
 
 ## Recommended extracurriculars
 
-If you want to see my recommendations, [click here to check them out](/midtown/recommended-extracurriculars)
+If you want to see my recommendations, [click here to check them out](/blog/recommended-extracurriculars)
