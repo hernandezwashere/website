@@ -5,6 +5,7 @@ tags: ["computer science", "internship", "learning", "facebook"]
 draft: false
 ---
 
+> Published on Medium [here](https://medium.com/@josehdz/that-time-facebook-took-a-chance-on-me-f165ef741ecc).
 
 Last summer was one of the best summers I’ve had in life and at work. This piece should’ve come a long time ago, but now is better than later. This is part of a larger story of how I became a coder at Stanford, but we can hold off on the big story for now :)
 
